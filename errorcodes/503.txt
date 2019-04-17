@@ -1,0 +1,5 @@
+This error is displayed when the joke is not available (AKA there's no joke).
+
+Error Message:
+
+ERR_JOKE_UNAVAILABLE

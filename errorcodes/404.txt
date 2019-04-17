@@ -1,0 +1,3 @@
+This error code is displayed when the joke has no punchline.
+Error Message:
+ERR_LOGIC_NOT_FOUND
