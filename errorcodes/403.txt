@@ -1,0 +1,1 @@
+This error code is displayed when the joke is beyond the understanding of Carter's mortal mind. Error Message: ERR_JOKE_IQ_LEVEL_TOO_HIGH
