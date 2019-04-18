@@ -61,13 +61,11 @@
         $(document).ready(function (e) {
             var params = getAllUrlParams(document.URL);
             var title = document.getElementById("title");
+            var description = document.getElementById("description");
             document.title = params.code;
             title.innerHTML = params.code;
-            try {
-                $("#description").load(`./errorcodes/${params.code}.txt`)
-            } catch {
-                alert("Error code does not exist yet.")
-            }
+            $("#description").load(`./errorcodes/${params.code}.txt`);
+            if (description.innerHTML === null){description.innerHTML = "This error code does not exist";}
         });
     </script>
 </body>
