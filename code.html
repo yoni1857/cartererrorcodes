@@ -11,7 +11,7 @@
 
 <body>
     <br>
-    <h1><b id="title">0000</b></h1>
+    <h1><b id="title">000</b></h1>
     <br>
     <h3 id="description"></h3>
     <br>
@@ -65,7 +65,9 @@
             document.title = params.code;
             title.innerHTML = params.code;
             $("#description").load(`./errorcodes/${params.code}.txt`);
-            if (description.innerHTML === ""){description.innerHTML = "This error code does not exist";}
+            if (description.innerHTML === "") {
+                description.innerHTML = "This error code does not exist";
+            }
         });
     </script>
 </body>
