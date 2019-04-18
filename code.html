@@ -65,7 +65,7 @@
             document.title = params.code;
             title.innerHTML = params.code;
             $("#description").load(`./errorcodes/${params.code}.txt`);
-            if (description.innerHTML === null){description.innerHTML = "This error code does not exist";}
+            if (description.innerHTML === ""){description.innerHTML = "This error code does not exist";}
         });
     </script>
 </body>
