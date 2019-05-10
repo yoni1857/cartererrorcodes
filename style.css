@@ -16,3 +16,26 @@ a :hover {
     text-decoration: none;
     color: darkgray;
 }
+
+#sponsor{
+    color: #6571ff;
+    font-family: 'B612 Mono', monospace;
+    text-shadow: 1px 1px 1px 1px grey;
+    position: absolute;
+    bottom: 0;
+    height: 1rem;
+    left: 70px;
+}
+
+#logo{
+    position: absolute;
+    bottom: 0;
+    height: 1rem;
+    width:65px;
+    height: 65px;
+    float: left;
+}
+
+body {
+    overflow-x: hidden;
+}
